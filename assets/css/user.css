@@ -1,0 +1,14 @@
+/* body{
+  min-height: 100vh;
+} */
+.box{
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* width: auto; */
+  height: auto; 
+  /* flex-direction: column; */
+  position: relative;
+  /* float: left;  */
+  position: absolute;
+  /* margin-left: 15%; */
+}

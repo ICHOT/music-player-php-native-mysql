@@ -1,0 +1,58 @@
+.navcolor{background-color: pink!important}
+.border-left-pink{border-left:.25rem solid pink!important}
+.gambaralbum{
+  width: 80px;
+  height: 80px;
+  border-bottom-right-radius: 2px ;
+  border-top-right-radius: 2px;
+}
+.nav-text{color:blue}
+/* /// */
+.navv{
+  display :flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navlogo{
+  color: blue;;
+}
+.navlist{
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+}
+.navlink{
+  display: inline-block;
+  text-decoration: none;
+  color:blue;
+  position:relative;
+}
+.navlinks::after{
+  content:'';
+  position: absolute;
+  left:0;bottom:0;
+  width: 100%;height:2px;
+  background-color: #fff;
+transition: scaleX(0);
+transform-origin: right;
+transition: transform .5s;
+}
+.navlink:hover::after{
+  transition: scaleX(1);
+  transform-origin: left;
+}
+.pink{
+  background-color:pink;
+}
+.selected{
+  background-color: rgb(255, 173, 207);
+}
+.sampul_album{
+  width: 50px;
+  height:100px
+}
+.fonttitle{
+margin-left: 10px;
+align-items:center;
+font-size: 25px;
+}
